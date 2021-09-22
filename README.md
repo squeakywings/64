@@ -1,5 +1,5 @@
-# 64 | @ | 01000000
+# 01000000 | 64 | @
 
-```
-binstr(64,8).xyz
+```js
+window.location.href = `https://0${64..toString(2)}.xyz`;
 ```
